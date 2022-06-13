@@ -140,6 +140,10 @@ h6 {
   background-color: #f6f7fd;
 }
 
+.sponsorship-proposal h3 {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -301,7 +305,7 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a {
-  color: #fff;
+  color: #000;
   background: #ffc100;
   padding: 7px 22px;
   border-radius: 50px;
@@ -312,10 +316,12 @@ h6 {
   margin-top: 2px;
   line-height: 1;
   font-size: 13px;
+  font-weight: bold;
 }
 
 .nav-menu li.buy-tickets a:hover {
   background: none;
+  color: #fff;
 }
 
 .nav-menu li.buy-tickets:hover a:before,
