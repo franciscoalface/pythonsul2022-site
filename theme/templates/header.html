@@ -13,6 +13,9 @@
                 <li><a href="{{tag}}">{{text}}</a></li>
                 {% endif %}
                 {% endfor %}
+                {% if CFP_LINK %}
+                <li><a href="{{CFP_LINK}}" target="_blank">Submeter Palestra</a></li>
+                {% endif %}
                 {% if INSCRICAO_LINK %}
                 <li class="buy-tickets"><a href="{{INSCRICAO_LINK}}" target="_blank">Ingressos</a></li>
                 {% endif %}

@@ -628,6 +628,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+#intro a {
+  border: 0;
+  padding: 7px 10px;
+  cursor: pointer;
+  background: #9e2828;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 7.5px;
+}
+
 @-webkit-keyframes pulsate-btn {
   0% {
     -webkit-transform: scale(0.6, 0.6);
