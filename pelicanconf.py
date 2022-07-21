@@ -23,7 +23,7 @@ SITEMAP = {
     "format": "xml",
     "exclude": ["tags.html", "categories.html", "authors.html", "archives.html"],
 }
-ARTICLE_ORDER_BY = "date"
+ARTICLE_ORDER_BY = "basename"
 TIMEZONE = "America/Sao_Paulo"
 
 DEFAULT_LANG = "pt-br"
@@ -47,6 +47,7 @@ OLD_EVENTS = (
 MENU = (
     ("#intro", "Início", True),
     ("#about", "Sobre", False),
+    ("#keynotes", "Keynotes", False),
     # ("#schedule", "Agenda", False),
     ("#inscricao", "Inscrição", False),
     ("#supporters", "Patrocinadores", False),
@@ -54,7 +55,7 @@ MENU = (
 )
 
 INSCRICAO_LINK = "https://www.sympla.com.br/python-sul-2022__1610633"
-CFP_LINK = "https://forms.gle/Adhyjb47BSDnJJEp7"
+# CFP_LINK = "https://forms.gle/Adhyjb47BSDnJJEp7"
 
 # Social widget
 SOCIAL = {

@@ -6,7 +6,7 @@ authors = ["Francisco Alface <falface@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pelican = "4.2.0"
+pelican = {version = "4.2.0", extras = ["markdown"]}
 tornado = "6.0.3"
 docutils = "0.15.2"
 invoke = "1.3.0"

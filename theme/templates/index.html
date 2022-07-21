@@ -23,7 +23,7 @@
             <p class="mb-1 pb-0">Centro Universitário - Católica de Santa Catarina</p>
             <!-- <p class="mb-4 pb-0"><small>Centro Universitário - Católica de Santa Catarina</small></p> -->
             <br>
-            <a href="{{ CFP_LINK }}" target="_blank">SUBMETER PALESTRA</a>
+            <!-- <a href="{{ TUTORIAL_LINK }}" target="_blank">SUBMETER TUTORIAL</a> -->
         </div>
     </section>
 
@@ -61,28 +61,56 @@
         </section>
 
         <!--==========================
+        Keynotes Section
+        ============================-->
+        <section id="keynotes" class=" wow fadeInUp">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Keynotes</h2>
+                    <div class="row" style="justify-content: center;">
+                        {% for a in articles %}
+                        {% if a.category == "keynotes" %}
+                        <div class="col-lg-6 col-md-6">
+                            <div class="keynote">
+                                <h3>{{a.name}}</h3>
+                                <img src="{{ SITEURL }}/theme/img/speakers/{{a.image}}" alt="{{a.slug}}"
+                                    class="img-fluid">
+                                <div class="details">
+                                    <!-- <p>{{a.title}}</p> -->
+                                    <div class="social">
+                                        {% if a.github %}
+                                        <a href="{{a.github}}" target="_blank"><i class="fa fa-github"></i></a>
+                                        {% endif %}
+                                        {% if a.twitter %}
+                                        <a href="{{a.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+                                        {% endif %}
+                                        {% if a.linkedin %}
+                                        <a href="{{a.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        {% endif %}
+                                        {% if a.facebook %}
+                                        <a href="{{a.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        {% endif %}
+                                        {% if a.google %}
+                                        <a href="{{a.google}}" target="_blank"><i class="fa fa-google-plus"></i></a>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==========================
         Inscricao Section
         ============================-->
         <section id="inscricao" class="pt-4 mt-4 wow fadeInUp">
             <div class="container">
                 <div class="section-header">
                     <h2>Inscrição</h2>
-                    <!-- <p>
-                        Esse ano contamos duas formas de inscrição: a já <b>tradicional gratuita</b>,
-                        que garante acesso a todo o evento, incluindo palestras, sem custos.
-                        A outra forma é por meio da compra de um <b>ingresso com camiseta</b>,
-                        com o intuito de ajudar o evento a crescer e proporcionar uma melhor infraestrutura.
-                        Apoie e ganhe uma camiseta pra sair por aí mostrando que ama Python!
-                    </p>
-                    <ul class="mt-4 list-group list-group-flush">
-                        <li class="list-group-item text-center">
-                            Inicio das Inscrições:
-                            <strong>26/04/2022</strong>
-                        </li>
-                        <li class="list-group-item text-center">
-                            Fim das Inscrições: <strong>10/06/2022</strong>
-                        </li>
-                    </ul> -->
                     <p>
                         <a href="{{INSCRICAO_LINK}}" target="_blank">
                             [Inscreva-se Agora]
@@ -135,26 +163,28 @@
         </section>
 
         <!--==========================
-      Schedule Section
-    ============================-->
+        Schedule Section
+        ============================-->
+        <!--
         <section id="schedule" class="section-with-bg">
             <div class="container wow fadeInUp">
-                <!-- <div class="section-header">
+                <div class="section-header">
                     <h2>Agenda</h2>
                     <p>Incentivamos a todos a doarem 2kg de alimentos não perecíveis</p>
                 </div>
 
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Dia 11/06/2022</a>
+                        <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Dia 09/09/2022</a>
                     </li>
                 </ul>
 
-                <h3 class="sub-heading">Grade sujeita a alterações!</h3> -->
+                <h3 class="sub-heading">Grade sujeita a alterações!</h3>
 
                 <div class="tab-content row justify-content-center">
 
-                    <!-- Schdule Day 1 -->
+                Schdule Day 1 - this should be a comment
+
                     <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
                         {% for a in articles %}
                         {% if a.category == "horarios" %}
@@ -175,10 +205,11 @@
                 </div>
 
         </section>
+        -->
 
         <!--==========================
-      Sponsors Section
-    ============================-->
+        Sponsors Section
+        ============================-->
         <section id="supporters" class="section-with-bg wow fadeInUp">
 
             <!-- <div class="container">
