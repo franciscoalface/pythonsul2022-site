@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.dev/</loc>
-<lastmod>2022-07-21T21:17:40-00:00</lastmod>
+<lastmod>2022-07-21T21:29:28-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -257,14 +257,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.dev/author/adriano-margarin.html</loc>
-<lastmod>2022-09-09T15:50:00-03:06</lastmod>
+<lastmod>2022-09-10T15:50:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://pythonsul.dev/author/bruna-ferreira.html</loc>
-<lastmod>2022-09-10T13:30:00-03:06</lastmod>
+<lastmod>2022-09-09T11:10:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -285,7 +285,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.dev/author/eduardo-mendes.html</loc>
-<lastmod>2022-09-10T15:50:00-03:06</lastmod>
+<lastmod>2022-09-09T15:50:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -299,7 +299,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.dev/author/guionardo-furlan.html</loc>
-<lastmod>2022-09-10T09:40:00-03:06</lastmod>
+<lastmod>2022-09-09T10:00:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -334,7 +334,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.dev/author/lucas-eduardo-abreu-silva.html</loc>
-<lastmod>2022-09-09T11:10:00-03:06</lastmod>
+<lastmod>2022-09-10T13:30:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -362,7 +362,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.dev/author/perceu-bertoletti.html</loc>
-<lastmod>2022-09-09T10:00:00-03:06</lastmod>
+<lastmod>2022-09-10T09:40:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
