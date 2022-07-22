@@ -1668,6 +1668,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+.schedule-day-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  color: #ffc100;
+}
+
+#day-2 {
+  padding-top: 2rem;
+}
+
+#day-3 {
+  padding-top: 2rem;
+}
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
