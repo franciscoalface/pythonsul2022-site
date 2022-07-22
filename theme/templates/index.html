@@ -64,9 +64,9 @@
         </section>
 
         <!--==========================
-        Keynotes Section
+        Keynotes Sectioncd
         ============================-->
-        <section id="keynotes" class=" wow fadeInUp">
+        <section id="keynotes" class="section-with-bg wow fadeInUp">
             <div class="container">
                 <div class="section-header">
                     <h2>Keynotes</h2>
@@ -125,7 +125,7 @@
         <!-- ==========================
       Speakers Section
     ============================ -->
-        <section id="speakers" class="wow fadeInUp">
+        <section id="speakers" class=" wow fadeInUp">
             <div class="container">
                 <!-- <div class="section-header">
                     <h2>Palestrantes</h2>
@@ -168,52 +168,71 @@
         <!--==========================
         Schedule Section
         ============================-->
-        <!--
-        <section id="schedule" class="section-with-bg">
+
+        <section id="schedule" class="section-with-bg wow">
             <div class="container wow fadeInUp">
                 <div class="section-header">
                     <h2>Agenda</h2>
-                    <p>Incentivamos a todos a doarem 2kg de alimentos não perecíveis</p>
                 </div>
 
-                <ul class="nav nav-tabs" role="tablist">
+                <!-- <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Dia 09/09/2022</a>
                     </li>
-                </ul>
+                </ul> -->
 
                 <h3 class="sub-heading">Grade sujeita a alterações!</h3>
 
                 <div class="tab-content row justify-content-center">
 
-                Schdule Day 1 - this should be a comment
+                    <!-- Schdule Day 1 -->
 
                     <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+                        <h2 class="schedule-day-title">Palestras - 09/09</h2>
                         {% for a in articles %}
-                        {% if a.category == "horarios" %}
-                        <a href="{{a.url}}">
-                            <div class="row schedule-item">
-                                <div class="col-md-2">
-                                    <time><strong>{{a.date.strftime('%H:%M') }}</strong></time>
-                                </div>
-                                <div class="col-md-10">
-                                    <h4>{{a.title}}</h4>
-                                    <p>{{a.author}}</p>
-                                </div>
+                        {% if a.category == "horarios" and a.day == "1" %}
+                        <!-- <a href="{{a.url}}"> -->
+                        <div class="row schedule-item">
+                            <div class="col-md-2">
+                                <time><strong>{{a.date.strftime('%H:%M') }}</strong></time>
                             </div>
-                        </a>
+                            <div class="col-md-10">
+                                <h4>{{a.title}}</h4>
+                                <p>{{a.author}}</p>
+                            </div>
+                        </div>
+                        <!-- </a> -->
+                        {%endif%}
+                        {%endfor%}
+                    </div>
+
+                    <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-2">
+                        <h2 class="schedule-day-title">Palestras - 10/09</h2>
+                        {% for a in articles %}
+                        {% if a.category == "horarios" and a.day == "2" %}
+                        <!-- <a href="{{a.url}}"> -->
+                        <div class="row schedule-item">
+                            <div class="col-md-2">
+                                <time><strong>{{a.date.strftime('%H:%M') }}</strong></time>
+                            </div>
+                            <div class="col-md-10">
+                                <h4>{{a.title}}</h4>
+                                <p>{{a.author}}</p>
+                            </div>
+                        </div>
+                        <!-- </a> -->
                         {%endif%}
                         {%endfor%}
                     </div>
                 </div>
 
         </section>
-        -->
+
 
         <!--==========================
         Sponsors Section
         ============================-->
-        <section id="supporters" class="section-with-bg wow fadeInUp">
+        <section id="supporters" class="wow fadeInUp">
 
             <!-- <div class="container">
                 <div class="section-header">
