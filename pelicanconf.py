@@ -56,6 +56,7 @@ MENU = (
 
 INSCRICAO_LINK = "https://www.sympla.com.br/python-sul-2022__1610633"
 # CFP_LINK = "https://forms.gle/Adhyjb47BSDnJJEp7"
+TUTORIAL_LINK = "https://forms.gle/MGZzu8zrBTg457TdA"
 
 # Social widget
 SOCIAL = {
