@@ -22,9 +22,9 @@
             </h1>
             <p class="mb-1 pb-0">Centro Universitário - Católica de Santa Catarina</p>
             <!-- <p class="mb-4 pb-0"><small>Centro Universitário - Católica de Santa Catarina</small></p> -->
-            <br>
-            <span style="color: #fff;">Submissão dos tutoriais até o dia 10/08</span>
-            <a href="{{ TUTORIAL_LINK }}" target="_blank">SUBMETER TUTORIAL</a>
+            <!-- <br> -->
+            <!-- <span style="color: #fff;">Submissão dos tutoriais até o dia 10/08</span> -->
+            <!-- <a href="{{INSCRICAO_LINK}}" target="_blank">INCREVA-SE EM UM TUTORIAL</a> -->
         </div>
     </section>
 
@@ -74,7 +74,11 @@
                     </div>
                     <div class="col-lg-6">
                         <h3>Tutoriais</h3>
-                        <p>Dia 11/09 - <strong>GRATUITO</strong></p>
+                        <p>Dia 11/09 - <strong>GRATUITO</strong> -
+                            <a href="{{INSCRICAO_LINK}}" target="_blank">
+                                <strong>Inscreva-se</strong>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -255,12 +259,12 @@
                             <div class="col-md-2">
                                 <time><strong>{{a.date.strftime('%H:%M') }}</strong></time>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                                 <h4>{{a.title}}</h4>
                                 <p>{{a.author}}</p>
                             </div>
-                            <div class="col-md-2">
-                                <a href="{{a.form}}" target="_blank" class="tutorial-button">Inscreva-se</a>
+                            <div class="col-md-3">
+                                <a href="{{INSCRICAO_LINK}}" target="_blank" class="tutorial-button">Inscreva-se</a>
                             </div>
                         </div>
                         <!-- </a> -->
