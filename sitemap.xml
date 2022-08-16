@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.dev/</loc>
-<lastmod>2022-08-08T21:05:27-00:00</lastmod>
+<lastmod>2022-08-16T11:21:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -221,6 +221,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://pythonsul.dev/tutorial-1.html</loc>
+<lastmod>2022-09-11T08:30:00-03:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pythonsul.dev/tutorial-2.html</loc>
+<lastmod>2022-09-11T08:30:00-03:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://pythonsul.dev/keynote-eduardo-mendes.html</loc>
 <lastmod>2022-10-09T00:00:00-03:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -249,8 +263,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://pythonsul.dev/category/tutoriais.html</loc>
+<lastmod>2022-09-11T08:30:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://pythonsul.dev/tag/horarios.html</loc>
 <lastmod>2022-10-09T00:00:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pythonsul.dev/tag/tutoriais.html</loc>
+<lastmod>2022-09-11T08:30:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -265,6 +293,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://pythonsul.dev/author/bruna-ferreira.html</loc>
 <lastmod>2022-09-09T11:10:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pythonsul.dev/author/bruno-luvizotto-carli.html</loc>
+<lastmod>2022-09-11T08:30:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -370,6 +405,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://pythonsul.dev/author/python-sul.html</loc>
 <lastmod>2022-10-09T00:00:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pythonsul.dev/author/ramiro-luz.html</loc>
+<lastmod>2022-09-11T08:30:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
