@@ -48,7 +48,7 @@ MENU = (
     ("#intro", "Início", True),
     ("#about", "Sobre", False),
     ("#keynotes", "Keynotes", False),
-    ("#inscricao", "Inscrição", False),
+    ("#inscricao", "Inscrições", False),
     ("#schedule", "Palestras", False),
     ("#tutoriais", "Tutoriais", False),
     ("#supporters", "Patrocinadores", False),
