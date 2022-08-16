@@ -48,7 +48,8 @@ MENU = (
     ("#intro", "Início", True),
     ("#about", "Sobre", False),
     ("#keynotes", "Keynotes", False),
-    ("#schedule", "Agenda", False),
+    ("#schedule", "Palestras", False),
+    ("#tutoriais", "Tutoriais", False),
     ("#inscricao", "Inscrição", False),
     ("#supporters", "Patrocinadores", False),
     ("#contact", "Contato", False),
@@ -56,7 +57,7 @@ MENU = (
 
 INSCRICAO_LINK = "https://www.sympla.com.br/python-sul-2022__1610633"
 # CFP_LINK = "https://forms.gle/Adhyjb47BSDnJJEp7"
-TUTORIAL_LINK = "https://forms.gle/MGZzu8zrBTg457TdA"
+# TUTORIAL_LINK = "https://forms.gle/MGZzu8zrBTg457TdA"
 
 # Social widget
 SOCIAL = {

@@ -242,6 +242,31 @@
                         {%endif%}
                         {%endfor%}
                     </div>
+
+                    <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="tutoriais">
+                        <h2 class="schedule-day-title">Tutoriais - 11/09</h2>
+                        <h5>Os tutoriais acontecerão simultaneamente e possuem vagas limitadas. Por conta disso,
+                            solicitamos que cada
+                            participante inscreva-se em apenas um tutorial.</h5>
+                        {% for a in articles %}
+                        {% if a.category == "tutoriais" %}
+                        <!-- <a href="{{a.url}}"> -->
+                        <div class="row schedule-item">
+                            <div class="col-md-2">
+                                <time><strong>{{a.date.strftime('%H:%M') }}</strong></time>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>{{a.title}}</h4>
+                                <p>{{a.author}}</p>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="{{a.form}}" target="_blank" class="tutorial-button">Inscreva-se</a>
+                            </div>
+                        </div>
+                        <!-- </a> -->
+                        {%endif%}
+                        {%endfor%}
+                    </div>
                 </div>
 
         </section>
@@ -397,14 +422,14 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-xs-6">
+                        <!-- <div class="col-lg-3 col-md-4 col-xs-6">
                             <div class="supporter-logo">
                                 <a href="https://salutho.com/" target="_blank">
                                     <img src="{{ SITEURL }}/theme/img/salutho-200-200.jpg" class="img-fluid"
                                         alt="logo-salutho">
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
