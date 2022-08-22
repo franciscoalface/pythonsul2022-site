@@ -6,3 +6,4 @@ Tags: tutoriais
 Slug: tutorial-1
 Author: Ramiro Luz
 Form: https://forms.gle/CHSJUKogaV7SVT528
+Duration: 4 horas

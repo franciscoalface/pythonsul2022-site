@@ -1021,6 +1021,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+#schedule .schedule-item span {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+  font-size: small;
+}
+
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/

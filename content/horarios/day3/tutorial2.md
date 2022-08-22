@@ -6,3 +6,4 @@ Tags: tutoriais
 Slug: tutorial-2
 Author: Bruno Luvizotto Carli
 Form: https://forms.gle/rzJwdZtavJEir93y6
+Duration: 4 horas
