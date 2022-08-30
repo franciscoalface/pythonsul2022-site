@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://pythonsul.dev/</loc>
-<lastmod>2022-08-22T10:38:33-00:00</lastmod>
+<lastmod>2022-08-30T09:52:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -326,13 +326,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://pythonsul.dev/author/franco-gonzalez.html</loc>
-<lastmod>2022-09-09T16:50:00-03:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://pythonsul.dev/author/guionardo-furlan.html</loc>
 <lastmod>2022-09-09T10:00:00-03:06</lastmod>
 <changefreq>daily</changefreq>
@@ -405,6 +398,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://pythonsul.dev/author/python-sul.html</loc>
 <lastmod>2022-10-09T00:00:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://pythonsul.dev/author/ramiro-batista-da-luz.html</loc>
+<lastmod>2022-09-09T16:50:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
